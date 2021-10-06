@@ -12,18 +12,21 @@ import Wifi from "assets/img/wifi.png"
 import Bholloo from "assets/img/bholloo.png"
 import Coffee from "assets/img/coffee.png"
 import { Link } from "react-router-dom";
-import BackImg from "assets/img/bg.PNG";
 
 
 export default function Dashboard() {
   return (
     <div >
-      <div style={{ backgroundImage: `url(${BackImg})` }}>
-        <img src={PersonIcon} style={{
+
+      <div >
+        
+        <img src={PersonIcon} 
+        style={{
           marginTop: "10px", width: "265px", height: "297px", marginBottom: "0PX", position: "absolute", zIndex: "1767"
           , right: "100px"
         }}
         />
+
       </div>
       <GridContainer>
         <GridItem xs={12} sm={6} md={3}>

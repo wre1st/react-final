@@ -44,7 +44,7 @@ const dashboardRoutes = [
   },
   {
     path: "/form1",
-    name: "Form",
+    name: "Internet Bundles",
     rtlName: "لوحة القيادة",
     icon: Dashboard,
     component: Form1,
